@@ -54,6 +54,9 @@ TF-IDF for a word in a document is calculated by multiplying two different metri
 
 TF-IDF algorithms help sort data into categories, as well as extract keywords.
 
+![alt text](https://raw.githubusercontent.com/vivekalex61/Search-engine-for-movies/main/images/tfidf.png)
+
+
 #### TruncatedSVD 
 
 This transformer performs linear dimensionality reduction by means of truncated singular value decomposition (SVD). Contrary to PCA, this estimator does not center the data before computing the singular value decomposition. This means it can work with sparse matrices efficiently.
@@ -63,14 +66,28 @@ converting to number of components = 200
 Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis
 
 Cosine similarity captures the orientation (the angle) of the documents and not the magnitude. The cosine similarity is advantageous because even if the two similar documents are far apart by the Euclidean distance they could still have a smaller angle between them. Smaller the angle, higher the similarity.
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/Search-engine-for-movies/main/images/cosineformula.png)
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/Search-engine-for-movies/main/images/cosine_180.png)
+
+Above figure shows angle between x and y axis as zero which means cos(0)= 1 showing values are entierly different.
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/Search-engine-for-movies/main/images/cosine_similarity.png)
+
+Above figure shows angle between x and y axis as 90 which means cos(90)= 0, showing values are similar.
+
+
 
 ## Predictions
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
-![alt text](https://raw.githubusercontent.com/vivekalex61/insightsearch/master/test/overall_sentiments.png)
 
+The characters of friends series is entered
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/Search-engine-for-movies/main/images/desc_friends.png)
+
+Output :
+
+![alt text](https://raw.githubusercontent.com/vivekalex61/Search-engine-for-movies/main/images/desc_friends_p.png)
 
 ## End Notes
 
